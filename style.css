@@ -1,0 +1,30 @@
+body {
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    width:100%;
+    margin:0px;
+    font-size: 25px;
+    background-color: rgb(151, 32, 32);
+    padding:10px;
+    color:whitesmoke;
+    box-shadow: 5px 5px 20px red;
+    text-shadow: 2px 2px gray;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#name {
+    width:30%;
+}
+canvas {
+    box-shadow: 5px 5px 20px rgb(12, 46, 90);
+    border:ridge 5px cyan;
+    border-radius:15px;
+    margin-top: 310px;
+}
+
+#status, #found{
+    font-size: 19px;
+}

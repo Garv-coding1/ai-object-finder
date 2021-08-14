@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js "></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <title>Object Finder</title>
+</head>
+<body background="bg.jpg">
+    <center>
+      <h3 class="header">AI Object Finder
+        <hr>
+        <p id="note">This Webapp can identify a specific object in realtime. Write the name of object you want to find in the text input.</p>
+      </h3>
+      <br><br>
+      <b>Object Name:</b>
+      <br>
+      <input type="text" id="name" class="form-control" placeholder="Type here">
+      <br>
+      <button id="start" onclick="start()" class="btn btn-success">Start</button>
+      <br><br>
+      <p id="status" class="btn btn-primary"></p>
+      <p id="found" class="btn btn-danger"></p>
+            </center>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
